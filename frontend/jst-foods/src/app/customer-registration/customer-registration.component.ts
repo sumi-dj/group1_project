@@ -62,6 +62,9 @@ export class CustomerRegistrationComponent implements OnInit {
         }
           else if(this.value.message == "invalid_email"){
             alert("Please enter valid email!");}
+            else if(this.value.message == "invalid_password"){
+              alert("Please enter valid password!");
+            }
         else if(this.o!=null){
           alert("Sign-up successfull: You can login and Enjoy  ");
           if(this.value.id){
