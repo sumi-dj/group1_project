@@ -56,8 +56,8 @@ public class CustomerService {
 				throw new CustomerEmailInvalid("invalid_email");
 			}
 			
-			//minimum one Uppercase, minimum one lowercase, minimum one special character, minimum a single digit, atleast 8 characters 
-			Pattern passCheck = Pattern.compile("[A-za-z]{8,10}");
+			//password validation
+			Pattern passCheck = Pattern.compile("[A-Z][a-zA-Z0-9]{7,100}");
 			Matcher passMatch = passCheck.matcher(pass);
 			if(passMatch.find() && passMatch.group().equals(pass)) {
 				isValidPassword = true;
@@ -67,7 +67,6 @@ public class CustomerService {
 			}
 		}
 		
-		//minimum one Uppercase, minimum one lowercase, minimum one special character, minimum a single digit, atleast 8 characters 
 		
 		
 	
