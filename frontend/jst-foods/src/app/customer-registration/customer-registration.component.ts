@@ -70,7 +70,7 @@ export class CustomerRegistrationComponent implements OnInit {
           if(this.value.id){
             alert(`login with id ${this.value.id}`);
           }
-          localStorage.setItem('userdetails', JSON.stringify(data));
+         // localStorage.setItem('userdetails', JSON.stringify(data));
        }
       })
   }

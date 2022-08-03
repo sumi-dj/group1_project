@@ -41,6 +41,7 @@ value:any;
 
       this.o=this.cs.fnLogin(this.customerLoginForm.value).subscribe(data=>{
         console.log(data);
+        localStorage.setItem('userdetails', JSON.stringify(data));
         this.value = data;
         if(this.value.message == "loginid_is_invalid"){
           alert("The login Id is invalid! Please use the valid login Id.");
@@ -53,7 +54,7 @@ value:any;
        }
       })
 
-      //New Code Ends Here ----
+  
 
 
 
