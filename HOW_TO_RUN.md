@@ -1,9 +1,9 @@
 # group1_project
 Jst foods is a food delivery application made by group1. Team leader Diptoprava Jana . Other team-members are spandana,tejwaswini,sivasankar,jagan mohan.
 HOW TO RUN OUR PROJECT:-
-In this project we have 4 rest apis: customer,menu,cart and delivery partner. Customer and cart both under Group1-jst-food1. All the apis have different ports. 
+In this project we have 4 rest apis: customer,menu,cart and delivery partner. Customer and cart both under Group1-jst-food1
 1.After extracting and setting up the backend please update the password of workbench in all the api's src/main/resources-> application.properties .
-Create a database called jstfood in workbench or you can change as you like , just have to change the application.properties accordingly.
+Create a database called jstfood in workbench or you can change as you like , just have to change the application.properties accordingly
 in workbench.
 2.Please run all 3 apis in the backend folder.(Group1-jst-food1,menu,delivery partner.)All have different ports. To make sure our application is working fine 
 we need all 3 to run simultaneously.
