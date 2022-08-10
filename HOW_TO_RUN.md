@@ -9,7 +9,7 @@ in workbench.
 we need all 3 to run simultaneously.
 3.For now in our project the admin add menu in nav bar is open to all by that you have to add food items in the database by that you can add picture but for that a query 
 need to be executed that is : "alter table jstfood.menu modify column picture longblob;" as by default the picture column is tinyblob and it does not support pictures .
-4.In our case the menu in navbar is just for show it's purely frontend based . To add items to cart atfirst you have to add items using admin add menu then in 
-go to cart you can see the menu items with pictures then if you press add to cart item would be added in and you can see them in view cart.
+4.In our case the menu in navbar is just for show it's purely frontend based . To add items to cart atfirst you have to add items using admin add menu,
+then in go to cart you can see the menu items with pictures then if you press add to cart, items would be added in and you can see them in view cart.
 5.For the view cart to properly work you have to login successfully.
-6.In sign up you have to give proper email,phone number and password that starts with a capital letter and rest and atleast 7 alfanumeric characters.
+6.In sign up you have to give proper email,phone number and password that starts with a capital letter and rest and atleast 7 alphanumeric characters.
