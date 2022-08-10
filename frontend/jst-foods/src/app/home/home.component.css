@@ -22,9 +22,12 @@
 .carousel .carousel-indicators .active {
   background-color: rgb(250, 100, 100);
 }
-
+button{
+  color: rgb(147, 209, 245);
+}
 h1 {
   text-align: center;
+  color: rgb(243, 229, 229);
 }
 
 img {

@@ -38,7 +38,7 @@ public class CustomerService {
 			pass=customer.getPassword();
 			
 			//phonenum validation
-			Pattern contCheck = Pattern.compile("(0|91)?[7-9][0-9]{9}");
+			Pattern contCheck = Pattern.compile("(0|91)?[6-9][0-9]{9}");
 			Matcher contMatch = contCheck.matcher(contactNum);
 			if(contMatch.find() && contMatch.group().equals(contactNum)) {
 				isValid = true;
